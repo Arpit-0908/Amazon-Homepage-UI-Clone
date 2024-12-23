@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/page1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="slider-page" id="page1">
+        <table class="table--list">
+            <tr>
+                <td class="list--item">
+                    <img src="Images/p2col1.jpg">
+                    <p>
+                        Elton Van Gogh Starry Night Theme 3M Skin Case Vinyl Laptop Skin...
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="review-count">958</span>
+
+                    <p class="month">50+ bought in the past month</p>
+                    <br><br>
+
+                    <div class="price">
+                        <div class="dis">
+                            <div class="badge">-60%</div>
+                            <div class="di">
+                                <span class="a"><sup>₹</sup></span>199<span class="a"><sup>00</sup></span>
+                            </div>
+                        </div>
+                        <span class="deal-info">Limited time deal </span>
+                        <div class="ori">
+                            <span class="a">M.R.P.: </span> <span class="b">₹499.00</span>
+                        </div>
+                        <br>
+                        <span class="deliver">Get it by </span><span class="date"></span><br>
+                        <script>
+                            const today = new Date();
+                            const futureDate = new Date(today);
+                            futureDate.setDate(today.getDate() + 2);
+                            const options = { weekday: 'long', month: 'long', day: 'numeric' };
+                            const formattedDate = futureDate.toLocaleDateString('en-US', options);
+                            document.querySelector('.date').textContent = formattedDate;
+                        </script>
+                        <span class="free">FREE Delivery over ₹499. Fulfilled by Amazon.</span>
+                </td>
+
+                <td class="list--item">
+                    <img src="Images/p2col2.jpg">
+                    <p>
+                        Portronics My Buddy J Portable/Foldable Laptop Table with Laminated MDF Board, Aluminium...
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="review-count">22648</span>
+
+                    <p class="month">300+ bought in the past month</p>
+                    <br><br>
+
+                    <div class="price">
+                        <div class="dis">
+                            <div class="badge">-58%</div>
+                            <div class="di">
+                                <span class="a"><sup>₹</sup></span>648<span class="a"><sup>00</sup></span>
+                            </div>
+                        </div>
+                        <div class="ori">
+                            <span class="a">M.R.P.: </span> <span class="b">₹1,499.00</span>
+                        </div>
+                        <br>
+                        <span class="deliver">Get it by <span class="date2"></span></span>
+                        <script>
+                            const today2 = new Date();
+                            const deliveryDate2 = new Date(today2);
+                            deliveryDate2.setDate(today2.getDate() + 7);
+                            const formattedDate2 = deliveryDate2.toLocaleDateString('en-US', {
+                                weekday: 'long', month: 'long', day: 'numeric'
+                            });
+                            document.querySelector('.date2').textContent = formattedDate2;
+                        </script><br>
+                        <span class="free">FREE Delivery by Amazon</span>
+                </td>
+
+                <td class="list--item">
+                    <img src="Images/p2col3.jpg">
+                    <p>
+                        Cosmic Byte Cyclone RGB Laptop Cooling Pad with 5 Fan, Adjustable Speed...
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+
+                    <span class="review-count">485</span>
+
+                    <p class="month">100+ bought in the past month</p>
+                    <br><br>
+                    <div class="price">
+                        <div class="dis">
+                            <div class="badge">-33%</div>
+                            <div class="di">
+                                <span class="a"><sup>₹</sup></span>1,999<span class="a"><sup>00</sup></span>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="deal-info">Limited time deal </span>
+                    <div class="ori">
+                        <span class="a">M.R.P.: </span> <span class="b">₹2,299.00</span>
+                    </div>
+
+                    <span class="deliver">Get it by <span class="date4"></span></span>
+                    <script>
+                        const today4 = new Date();
+                        const deliveryDate4 = new Date(today4);
+                        deliveryDate4.setDate(today4.getDate() + 6);
+                        const formattedDate4 = deliveryDate4.toLocaleDateString('en-US', {
+                            weekday: 'long',
+                            month: 'long',
+                            day: 'numeric'
+                        });
+                        document.querySelector('.date4').textContent = formattedDate4; // Corrected the variable name here
+                    </script><br>
+                    <span class="free">FREE Delivery by Amazon</span>
+                </td>
+                <td class="list--item">
+
+                    <img src="Images/p2col4.jpg">
+                    <p>
+                        Cosmic Byte ARES Wired Controller for PC, Magnetic Triggers, Accurate Joysticks, Dual...
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+
+                    </span>
+
+                    <span class="review-count">4602</span>
+
+                    <p class="month">500+ bought in the past month</p>
+                    <br><br>
+                    <div class="price">
+                        <div class="dis">
+                            <div class="badge">-53%</div>
+                            <div class="di">
+                                <span class="a"><sup>₹</sup></span>1,149<span class="a"><sup>00</sup></span>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="deal-info">Limited time deal </span>
+                    <div class="ori">
+                        <span class="a">M.R.P.: </span> <span class="b">₹2,299.00</span>
+                    </div>
+
+                    <span class="deliver">Get it by <span class="date5"></span></span>
+                    <script>
+                        const today5 = new Date();
+                        const deliveryDate5 = new Date(today5);
+                        deliveryDate5.setDate(today5.getDate() + 8);
+                        const formattedDate5 = deliveryDate5.toLocaleDateString('en-US', {
+                            weekday: 'long',
+                            month: 'long',
+                            day: 'numeric'
+                        });
+                        document.querySelector('.date5').textContent = formattedDate5; // Corrected the variable name here
+                    </script><br>
+                    <span class="free">FREE Delivery by Amazon</span>
+                </td>
+                <td class="list--item">
+                    <img src="Images/p2col6.jpg">
+                    <p>
+                        One94Store 3D Deer Crystal Globe Lamp Creative Engraved Crystal Ball Night...
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="review-count">507</span>
+
+                    <p class="month">4K+ bought in the past month</p>
+                    <br><br>
+
+                    <div class="price">
+                        <div class="dis">
+                            <div class="badge">-70%</div>
+                            <div class="di">
+                                <span class="a"><sup>₹</sup></span>299<span class="a"><sup>00</sup></span>
+                            </div>
+                        </div>
+                        <div class="ori">
+                            <span class="a">M.R.P.: </span> <span class="b">₹999.00</span>
+                        </div>
+                        <br>
+                        <span class="deliver">Get it by <span class="date7"></span></span>
+                        <script>
+                            const today7 = new Date();
+                            const deliveryDate7 = new Date(today7);
+                            deliveryDate7.setDate(today7.getDate() + 5);
+                            const formattedDate7 = deliveryDate7.toLocaleDateString('en-US', {
+                                weekday: 'long',
+                                month: 'long',
+                                day: 'numeric'
+                            });
+                            document.querySelector('.date7').textContent = formattedDate7; // Corrected the variable name here
+                        </script><br>
+                        <span class="free">FREE Delivery over ₹499. Fulfilled by Amazon.</span>
+                </td>
+                <td class="list--item">
+                    <img src="Images/p2col7.jpg">
+                    <p>
+                        Zulaxy Photo Frame Hooks for Wall Without Drilling, ...
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="review-count">8407</span>  
+
+                    <p class="month">6K+ bought in the past month</p>
+                    <br><br>
+
+                    <div class="price">
+                        <div class="dis">
+                            <div class="badge">-79%</div>
+                            <div class="di">
+                                <span class="a"><sup>₹</sup></span>274<span class="a"><sup>00</sup></span>
+                            </div>
+                        </div>
+
+                        <div class="ori">
+                            <span class="a">M.R.P.: </span> <span class="b">₹1,299.00</span>
+                        </div>
+                        <br>
+
+                        <span class="deliver">Get it by <span class="date3"></span></span>
+                        <script>
+                            const today3 = new Date();
+                            const deliveryDate3 = new Date(today3);
+                            deliveryDate3.setDate(today3.getDate() + 3);
+                            const formattedDate3 = deliveryDate3.toLocaleDateString('en-US', {
+                                weekday: 'long',
+                                month: 'long',
+                                day: 'numeric'
+                            });
+                            document.querySelector('.date3').textContent = formattedDate3; // Corrected the variable name here
+                        </script><br>
+
+                        <span class="free">FREE Delivery over ₹499. Fulfilled by Amazon.</span>
+                </td>
+                <td class="list--item">
+                    <img src="Images/p2col5.jpg">
+                    <p>MENHOOD Battery Powered WaterProof Cordless Grooming Trimmer 2.0 for Men,...
+
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="review-count">1178</span>
+
+                    <p class="month">400+ bought in past month</p>
+                    <br><br>
+
+                    <div class="price">
+                        <div class="dis">
+                            <div class="badge">-65%</div>
+                            <div class="di">
+                                <span class="a"><sup>₹</sup></span>3,499<span class="a"><sup>00</sup></span>
+                            </div>
+                        </div>
+                        <span class="deal-info">Limited time deal </span>
+                        <div class="ori">
+                            <span class="a">M.R.P.: </span> <span class="b">₹9,799.00</span>
+                        </div>
+                        <span class="deliver">Get it by <span class="date6"></span></span>
+                        <script>
+                            const today6 = new Date();
+                            const deliveryDate6 = new Date(today6);
+                            deliveryDate6.setDate(today6.getDate() + 14);
+                            const formattedDate6 = deliveryDate6.toLocaleDateString('en-US', {
+                                weekday: 'long', month: 'long', day: 'numeric'
+                            });
+                            document.querySelector('.date6').textContent = formattedDate6;
+                        </script>
+                        <span class="free">FREE Delivery by Amazon</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/page1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="slider-page" id="page1">
+        <table class="table--list">
+            <tr>
+                <td class="list--item">
+                    <img src="Images/Col1.jpg">
+                    <p>POCO C61 Ethereal Blue 4GB RAM 64GB ROM
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="review-count">198</span>
+
+                    <p class="month">3K+ bought in the past month</p>
+                    <br><br>
+
+                    <div class="price">
+                        <div class="dis">
+                            <div class="badge">-33%</div>
+                            <div class="di">
+                                <span class="a"><sup>₹</sup></span>5,999<span class="a"><sup>00</sup></span>
+                            </div>
+                        </div>
+                        <span class="deal-info">Limited time deal </span>
+                        <div class="ori">
+                            <span class="a">M.R.P.: </span> <span class="b">₹8,999.00</span>
+                        </div>
+                        <br>
+                        <span class="deliver">Get it by </span><span class="date"></span><br>
+                        <script>
+                            const today = new Date();
+                            const futureDate = new Date(today);
+                            futureDate.setDate(today.getDate() + 9);
+                            const options = { weekday: 'long', month: 'long', day: 'numeric' };
+                            const formattedDate = futureDate.toLocaleDateString('en-US', options);
+                            document.querySelector('.date').textContent = formattedDate;
+                        </script>
+                        <span class="free">FREE Delivery by Amazon</span>
+                </td>
+
+                <td class="list--item">
+                    <img src="Images/col2.jpg">
+                    <p>Jail Diary Of Bhagat Singh<br>
+                        > Bhagat Singh
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="review-count">578</span>
+
+                    <p class="month">PaperBack</p>
+                    <br><br>
+
+                    <div class="price">
+                        <div class="dis">
+                            <div class="badge">-25%</div>
+                            <div class="di">
+                                <span class="a"><sup>₹</sup></span>146<span class="a"><sup>00</sup></span>
+                            </div>
+                        </div>
+                        <span class="deal-info">Limited time deal </span>
+                        <div class="ori">
+                            <span class="a">M.R.P.: </span> <span class="b">₹195.00</span>
+                        </div>
+                        <br>
+                        <span class="deliver">Get it by <span class="date2"></span></span>
+                        <script>
+                            const today2 = new Date();
+                            const deliveryDate2 = new Date(today2);
+                            deliveryDate2.setDate(today2.getDate() + 15);
+                            const formattedDate2 = deliveryDate2.toLocaleDateString('en-US', {
+                                weekday: 'long', month: 'long', day: 'numeric'
+                            });
+                            document.querySelector('.date2').textContent = formattedDate2;
+                        </script><br>
+                        <span class="free">FREE Delivery over ₹499. Fulfilled by Amazon.</span>
+                </td>
+
+                <td class="list--item">
+                    <img src="Images/Col3.jpg">
+                    <p>
+                        Amazon Brand - Symbol Men Lightweight Nehru Jacket
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+
+                    <span class="review-count">986</span>
+
+                    <p class="month">300+ bought in the past month</p>
+                    <div class="price">
+                        <div class="di">
+                            <span class="a"><sup>₹</sup></span>699<span class="a"><sup>00</sup></span>
+                        </div>
+                    </div>
+
+                    <span class="deliver">Get it by <span class="date4"></span></span>
+                    <script>
+                        const today4 = new Date();
+                        const deliveryDate4 = new Date(today4);
+                        deliveryDate4.setDate(today4.getDate() + 6);
+                        const formattedDate4 = deliveryDate4.toLocaleDateString('en-US', {
+                            weekday: 'long',
+                            month: 'long',
+                            day: 'numeric'
+                        });
+                        document.querySelector('.date4').textContent = formattedDate4; // Corrected the variable name here
+                    </script><br>
+                    <span class="free">FREE Delivery by Amazon</span>
+                </td>
+                <td class="list--item">
+
+                    <img src="Images/Col4.jpg">
+                    <p>
+                        BoAt Nirvana Ion, 120 HRS Battery, Crystal Bionic Sound w/Dual EQ Modes, 4Mics ENx,
+                        App
+                        Support,...
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+
+                    </span>
+
+                    <span class="review-count">5486</span>
+
+                    <p class="month">1.5K+ bought in the past month</p>
+                    <div class="price">
+                        <div class="di">
+                            <span class="a"><sup>₹</sup></span>1,599<span class="a"><sup>00</sup></span>
+                        </div>
+
+                        <span class="deliver">Get it by <span class="date5"></span></span>
+                        <script>
+                            const today5 = new Date();
+                            const deliveryDate5 = new Date(today5);
+                            deliveryDate5.setDate(today5.getDate() + 8);
+                            const formattedDate5 = deliveryDate5.toLocaleDateString('en-US', {
+                                weekday: 'long',
+                                month: 'long',
+                                day: 'numeric'
+                            });
+                            document.querySelector('.date5').textContent = formattedDate5; // Corrected the variable name here
+                        </script><br>
+                        <span class="free">FREE Delivery by Amazon</span>
+                </td>
+                <td class="list--item">
+                    <img src="Images/Col5.jpg">
+                    <p>Classic Box Set (Maze Runner Series)<br>>James Dashner
+
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="review-count">578</span>
+
+                    <p class="month">PaperBack</p>
+                    <br><br>
+
+                    <div class="price">
+                        <div class="dis">
+                            <div class="badge">-36%</div>
+                            <div class="di">
+                                <span class="a"><sup>₹</sup></span>1,799<span class="a"><sup>00</sup></span>
+                            </div>
+                        </div>
+                        <span class="deal-info">Limited time deal </span>
+                        <div class="ori">
+                            <span class="a">M.R.P.: </span> <span class="b">₹2799.00</span>
+                        </div>
+                        <br>
+                        <span class="deliver">Get it by <span class="date6"></span></span>
+                        <script>
+                            const today6 = new Date();
+                            const deliveryDate6 = new Date(today6);
+                            deliveryDate6.setDate(today6.getDate() + 20);
+                            const formattedDate6 = deliveryDate6.toLocaleDateString('en-US', {
+                                weekday: 'long', month: 'long', day: 'numeric'
+                            });
+                            document.querySelector('.date6').textContent = formattedDate6;
+                        </script><br>
+                        <span class="free">FREE Delivery by Amazon<br>Only 2 left in stock.</span>
+                </td>
+                <td class="list--item">
+                    <img src="Images/Col7.jpg">
+                    <p>
+                        POCO M6 Pro 5G (Power Black, 4GB RAM, 128GB Storage) | Snapdragon 4 Gen 2 | 6.79"
+                        Large...
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></span>
+                    <span class="review-count">5507</span>
+
+                    <p class="month">500+ bought in the past month</p>
+                    <br><br>
+
+                    <div class="price">
+                        <div class="dis">
+                            <div class="badge">-37%</div>
+                            <div class="di">
+                                <span class="a"><sup>₹</sup></span>10,499<span
+                                    class="a"><sup>00</sup></span>
+                            </div>
+                        </div>
+
+                        <div class="ori">
+                            <span class="a">M.R.P.: </span> <span class="b">₹15,999.00</span>
+                        </div>
+
+                        <span class="deliver">Get it by <span class="date3"></span></span>
+                        <script>
+                            const today3 = new Date();
+                            const deliveryDate3 = new Date(today3);
+                            deliveryDate3.setDate(today3.getDate() + 5);
+                            const formattedDate3 = deliveryDate3.toLocaleDateString('en-US', {
+                                weekday: 'long',
+                                month: 'long',
+                                day: 'numeric'
+                            });
+                            document.querySelector('.date3').textContent = formattedDate3; // Corrected the variable name here
+                        </script><br>
+
+                        <span class="free">FREE Delivery by Amazon</span>
+                </td>
+                <td class="list--item">
+                    <img src="Images/Col6.jpg">
+                    <p>
+                        ABH LIFESTYLE Men's Dupion Silk Dhoti Kurta Set.
+                    </p>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+
+                    <span class="review-count">1986</span>
+
+                    <p class="month">1K+ bought in the past month</p>
+                    <div class="price">
+                        <div class="di">
+                            <span class="a"><sup>₹</sup></span>799<span class="a"><sup>00</sup></span>-
+                            <span class="a"><sup>₹</sup></span>1,099<span class="a"><sup>00</sup></span>
+                        </div>
+                    </div>
+                    <span class="deliver">Get it by <span class="date7"></span></span>
+                    <script>
+                        const today7 = new Date();
+                        const deliveryDate7 = new Date(today7);
+                        deliveryDate7.setDate(today7.getDate() + 13);
+                        const formattedDate7 = deliveryDate7.toLocaleDateString('en-US', {
+                            weekday: 'long',
+                            month: 'long',
+                            day: 'numeric'
+                        });
+                        document.querySelector('.date7').textContent = formattedDate7; 
+                    </script><br>
+                    <span class="free">FREE Delivery by Amazon</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

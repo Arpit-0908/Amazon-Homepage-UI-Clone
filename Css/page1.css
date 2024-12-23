@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(15, 17, 17, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table--list {
+    position: absolute;
+    table-layout: fixed;
+    /* Ensures fixed column widths */
+    width: 100%;
+    height: 440px;
+    /* Adjust width based on content */
+    border-collapse: separate;
+    /* Ensures border-spacing works */
+    border-spacing: 20px;
+    /* Adjust spacing between columns (and rows) */
+    background-color: #fff;
+    /* Ensures a clean background */
+}
+
+.table--list td {
+    text-align: left;
+    padding-right: 10px;
+    vertical-align: top;
+    padding-top: 10px;
+    /* Aligns content to the top */
+}
+
+.list--item {
+    height: 410px;
+    text-align: center;
+    /* Center text inside cells */
+    font-size: 15px;
+    /* Standard font size for text */
+    font-weight: 600;
+    margin-left: -10px;
+    /* Slightly bold text */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+.list--item img {
+    width: 180px;
+    height: 170px;
+    margin-top: -20px;
+    margin-left: -18px;
+    cursor: pointer;
+}
+
+.list--item p {
+    font-size: 15px;
+    text-align: left;
+    /* Aligns the text to the left */
+    color: #007185;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.list--item p:hover {
+    text-decoration: underline;
+    color: #1a9fb6
+}
+
+.list--item .stars {
+    color: #f39d12;
+    /* Gold color for the stars */
+    font-size: 15px;
+    /* Adjusts the star icon size */
+    margin-bottom: 20px;
+
+}
+
+.list--item .month {
+    color: grey;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.list--item .review-count {
+    color: #078096;
+    font-weight: 100;
+}
+
+.price {
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    color: #333;
+}
+
+.dis {
+    display: flex;
+    align-items: center;
+    margin-top: -45px;
+    margin-bottom: 7px;
+}
+
+.badge {
+    font-size: 18px;
+    padding-left: 5px;
+    color: rgb(213, 32, 32);
+    font-weight: 100;
+    margin-right: 4px;
+
+}
+
+.di {
+    font-size: 19px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+
+.deal-info {
+    background-color: rgb(203, 9, 9);
+    padding-left: 8px;
+    color: #fffafa;
+    font-weight: 500;
+    margin-top: 19px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    z-index: 100;
+    font-size: 13px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    /* Add rounded corners */
+}
+
+
+.ori {
+    font-size: 10px;
+    color: #565959;
+    margin-top: 5px;
+}
+
+.deliver {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.date {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.date2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.date6 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.date5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.date4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.date3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.date7 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.free {
+    margin-top: 7px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.b {
+    text-decoration: line-through;
+    font-size: 16px;
+}
