@@ -1,7 +1,3 @@
-Here's your updated README with additional functionalities:  
-
----
-
 # 🛒 Amazon India Homepage Clone  
 
 A **homepage clone** of Amazon India, built for web development practice using **HTML, CSS, and JavaScript**. This project replicates the navigation bar, search bar, product categories, banners, and product listings.  
